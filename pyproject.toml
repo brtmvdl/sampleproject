@@ -3,21 +3,21 @@
 # package, this name will be registered for you. It will determine how
 # users can install this project, e.g.:
 #
-# $ pip install sampleproject
+# $ pip install sampleproject-brtmvdl
 #
-# And where it will live on PyPI: https://pypi.org/project/sampleproject/
+# And where it will live on PyPI: https://pypi.org/project/sampleproject-brtmvdl/
 #
 # There are some restrictions on what makes a valid project name
 # specification here:
 # https://packaging.python.org/specifications/core-metadata/#name
-name = "sampleproject"  # Required
+name = "sampleproject-brtmvdl"  # Required
 
 # Versions should comply with PEP 440:
 # https://www.python.org/dev/peps/pep-0440/
 #
 # For a discussion on single-sourcing the version, see
 # https://packaging.python.org/guides/single-sourcing-package-version/
-version = "3.0.0"  # Required
+version = "2023.05.15"  # Required
 
 # This is a one-line description or tagline of what your project does. This
 # corresponds to the "Summary" metadata field:
@@ -110,7 +110,7 @@ dependencies = [ # Optional
 # dependencies). Users will be able to install these using the "extras"
 # syntax, for example:
 #
-#   $ pip install sampleproject[dev]
+#   $ pip install sampleproject-brtmvdl[dev]
 #
 # Similar to `dependencies` above, these must be valid existing
 # projects.
@@ -129,11 +129,11 @@ test = ["coverage"]
 # maintainers, and where to support the project financially. The key is
 # what's used to render the link text on PyPI.
 [project.urls]  # Optional
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Reports" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/pypa/sampleproject-brtmvdl"
+"Bug Reports" = "https://github.com/pypa/sampleproject-brtmvdl/issues"
 "Funding" = "https://donate.pypi.org"
 "Say Thanks!" = "http://saythanks.io/to/example"
-"Source" = "https://github.com/pypa/sampleproject/"
+"Source" = "https://github.com/pypa/sampleproject-brtmvdl/"
 
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.
